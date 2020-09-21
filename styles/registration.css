@@ -21,7 +21,9 @@ body {
   position: relative;
   font-size: 20px;
 }
-
+h1, p {
+  text-align: center;
+}
 /* Add padding to containers */
 .container {
   padding: 16px;
@@ -54,14 +56,15 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #4caf50;
+  background-color:hsla(120, 100%, 75%, 0.3);
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
-  border: none;
+  border: 2px;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  font-size: 20px;
 }
 
 .registerbtn:hover {
