@@ -18,7 +18,7 @@ footer nav .bottomn-menu {
 
 footer nav .bottomn-menu li a {
     text-decoration: none;
-    color: gray;
+    color: #d2d1d1;
     padding: 5px;
     border: 1px solid transparent;
 
@@ -32,7 +32,7 @@ footer nav .bottomn-menu li a:hover {
 #contactinfo {
     text-align: center;
     font-size: 14px;
-    color: gray;
+    color: #d2d1d1;
     margin: 150px 15px 15px 15px;
 }
 
