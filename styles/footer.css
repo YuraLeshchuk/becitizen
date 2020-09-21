@@ -33,7 +33,7 @@ footer nav .bottomn-menu li a:hover {
     text-align: center;
     font-size: 14px;
     color: gray;
-    margin: 15px 15px 15px 15px;
+    margin: 150px 15px 15px 15px;
 }
 
 @media (min-width:768px) {
@@ -45,6 +45,7 @@ footer nav .bottomn-menu li a:hover {
     padding: 0px;
     margin: 20px 20px 20px 20px;
     font-size: 14px;
+    
      }
 
 }
