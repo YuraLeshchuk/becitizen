@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  max-width: 960px;
+  margin: auto;
+  background-image: url(../img/mainbackground.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
 /* style the container */
 .container {
   position: relative;

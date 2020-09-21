@@ -9,11 +9,23 @@
 * {
   box-sizing: border-box;
 }
+body {
+  max-width: 960px;
+  margin: auto;
+  background-image: url(../img/mainbackground.jpg);
+  background-size: cover;
+}
+#mainlink {
+  margin-top: 30px;
+  color: #d2d1d1;
+  position: relative;
+  font-size: 20px;
+}
 
 /* Add padding to containers */
 .container {
   padding: 16px;
-  background-color: white;
+
 }
 
 /* Full-width input fields */
@@ -25,6 +37,7 @@ input[type="password"] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  
 }
 
 input[type="text"]:focus,
@@ -62,6 +75,9 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  color: #d2d1d1;
   text-align: center;
+}
+h1, p, b {
+  color: #d2d1d1;
 }
