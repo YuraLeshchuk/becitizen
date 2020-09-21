@@ -15,12 +15,12 @@ body {
   background-image: url(../img/mainbackground.jpg);
   background-size: cover;
 }
-#mainlink {
-  margin-top: 30px;
-  color: #d2d1d1;
-  position: relative;
-  font-size: 20px;
+#homelink {
+  color: white;
+  padding: 14px 25px;
+  font-size: 16px;
 }
+
 h1, p {
   text-align: center;
 }
@@ -69,11 +69,18 @@ hr {
 
 .registerbtn:hover {
   opacity: 1;
+  
 }
 
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
+  padding: 7px 7px 10px 7px;
+  
+}
+a:hover {
+  border: 1px solid #d2d1d1;
+  border-radius: 5px;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
