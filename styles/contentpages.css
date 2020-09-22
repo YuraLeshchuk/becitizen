@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap");
+
+:root {
+  font-family: "Lato", sans-serif;
+  --main-color: black;
+  color: var(--main-color);
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    background-image: url(../img/air.jpg);
+    background-repeat: no-repeat;
+    background-size: 1980px 1080px;
+    color: whitesmoke;
+  }
+  
+  a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  div#contactinfo {
+     color:black;
+  }
+  #homelink a {
+    color: black;
+    padding: 14px 25px;
+    font-size: 16px;
+    text-decoration: none;
+  
+  
+  }
+  div#homelink {
+    margin-top: 30px;
+  }
+  #contactcontent {
+    text-align: center;
+    width: 500px;
+    margin-left: 5%;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#message {
+    width: 650px; 
+    height:175px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#email {
+    width: 300px;
+    height: 35px;
+    margin-left: 23px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#name {
+    height: 35px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 300px;
+    margin-left: 23px;
+}
+
+.btn-outline-dark {
+    width: 100px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    color: white;
+    border-color: white;
+}
+
+#frame {
+    width: 768px;
+    height: 230px;
+    margin-bottom: 20px;
+}

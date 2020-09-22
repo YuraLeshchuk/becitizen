@@ -21,6 +21,10 @@ h2 {
 #navbuttons {
   margin-top: 15px;
 }
-#buttlink {
+#waterbutton,
+#airbutton,
+#forestsbutton,
+#warmingbutton,
+#plasticbutton {
   margin-top: 15px;
 }
