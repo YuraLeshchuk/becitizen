@@ -5,6 +5,15 @@
     --main-color:#d2d1d1;
     color: var(--main-color);
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
 
 footer nav .bottomn-menu {
     display: flex;
@@ -33,7 +42,6 @@ div#contactinfo {
     text-align: center;
     font-size: 14px;
     color: #d2d1d1;
-    margin-top: 200px;
 }
 
 @media (min-width:768px) {
