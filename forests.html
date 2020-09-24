@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BeCitizen</title>
+    <link rel="icon" href="img/logo.jpeg" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous" />
+    <link href="styles/contentpages.css" rel="stylesheet" />
+    <link href="styles/footer.css" rel="stylesheet" />
+</head>
+  <body>
+    <header>
+        <div id="homelink">
+          <a href="index.html" target="_blank">Головна</a>
+        </div>
+      </header>
+    <main>
+      <form action="https://formspree.io/xjvoqdvj" method="POST">
+        <label>
+          <textarea
+            id="message"
+            class="form-control"
+            name="Message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </label>
+        <br />
+        <label>
+          <input
+            id="email"
+            type="email"
+            class="form-control"
+            placeholder="name@example.com"
+            name="Email"
+            required
+          />
+        </label>
+        <label>
+          <input
+            id="name"
+            type="text"
+            class="form-control"
+            placeholder="Full Name"
+            name="Name"
+            required
+          />
+        </label>
+        <br />
+        <div id="formbuttons">
+          <input class="btn btn-outline-dark" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+        <div id="contactinfo">
+          <p>123-122-1323 zastavna@gmail.com</p>
+          <p>1715 Soborna str, Lemberg, Ukraine</p>
+          <p>©2020 YX Studio</p>
+        </div>
+      </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
