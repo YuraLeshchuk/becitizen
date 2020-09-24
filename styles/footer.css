@@ -2,7 +2,7 @@
 
 :root {
     font-family: 'Lato', sans-serif;
-    --main-color: black;
+    --main-color:#d2d1d1;
     color: var(--main-color);
 }
 
@@ -29,11 +29,11 @@ footer nav .bottomn-menu li a:hover {
     background-color: #f0f1f7;
 }
 
-#contactinfo {
+div#contactinfo {
     text-align: center;
     font-size: 14px;
     color: #d2d1d1;
-    margin: 150px 15px 15px 15px;
+    margin-top: 200px;
 }
 
 @media (min-width:768px) {

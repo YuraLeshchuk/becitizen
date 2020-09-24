@@ -18,12 +18,13 @@ body {
   a:hover {
     border: 1px solid black;
     border-radius: 5px;
+    color: #d1d1d1;
   }
   div#contactinfo {
      color:black;
   }
   #homelink a {
-    color: black;
+    color: #d1d1d1;
     padding: 14px 25px;
     font-size: 16px;
     text-decoration: none;
@@ -49,17 +50,17 @@ body {
     margin-top: 50px;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: #d1d1d1;
 }
 
 #email {
     width: 300px;
     height: 35px;
-    margin-left: 23px;
+    margin-left: 35px;
     margin-right: 10px;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: #d1d1d1;
 }
 
 #name {
@@ -67,17 +68,19 @@ body {
     margin-right: 10px;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
-    width: 300px;
+    border-color: #d1d1d1;
+    width: 310px;
     margin-left: 23px;
 }
 
 .btn-outline-dark {
-    width: 100px;
-    margin-left: 43%;
+    width: 200px;
+    margin-left: 50%;
     margin-bottom: 20px;
     color: white;
     border-color: white;
+    margin-top: 10px;
+    
 }
 
 #frame {
