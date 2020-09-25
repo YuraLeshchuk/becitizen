@@ -6,9 +6,9 @@
     color: var(--main-color);
 }
 footer {
-    position: fixed;
+    position: static;
     left: 0;
-    bottom: 0px;
+    bottom: 5px;
     width: 100%;
     color: white;
     text-align: center;
